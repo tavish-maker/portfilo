@@ -1,0 +1,64 @@
+h1 {
+    color:brown;
+    
+   }
+   
+.header{
+    background-color:#f03434;
+    padding-left:30px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly; 
+
+}
+
+.icon{
+    flex-direction: column;
+    display:flex;
+    position:relative;
+}
+
+.icon:hover p{
+    opacity: 1;
+
+}
+  .icon:hover img{
+      opacity: 0.33;
+  }
+
+
+.icon p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end ;
+}
+
+p,h2{
+    text-align:center;
+}
+
+.saltree {
+    background-color: #ed00ff;
+    
+}
+ 
+a:link{
+color: white;
+
+}
+
+a:visted{
+    color:white;
+}
